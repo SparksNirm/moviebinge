@@ -4,9 +4,6 @@ const path=require("path");
 const router = jsonServer.router("./db.json");
 const middleware = jsonServer.defaults({ static: "./build" });
 const port = process.env.PORT || 8000;
-server.get("/*", function(req, res) {
-  res.sendFile(path.join(__dirname, "./build/index.html"));
-});
 server.use(middleware);
 server.use(router);
 
