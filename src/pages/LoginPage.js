@@ -53,7 +53,6 @@ const LoginPage = () => {
     }
 
 
-    const classes = useStyles();
     return (
         <div>
             <Grid container className='login'>
