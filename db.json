@@ -1,0 +1,497 @@
+{
+  "users": [
+    {
+      "firstname": "Nirmal",
+      "lastname": "Panchal",
+      "email": "panchalnirmal157@gmail.com",
+      "mobileNumber": "9053413927",
+      "username": "pnirmal",
+      "password": "pnirmal",
+      "id": 1
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "Captain Marvel",
+      "image": "/CaptainMarvel.jpg",
+      "isCarusel": false,
+      "isFeatured": false,
+      "type":"Movie",
+      "genre": [
+        "Adevnture",
+        "Action",
+        "SciFi",
+        "SuperHero"
+      ],
+      "duration": "2h 3m",
+      "imdbrating": 8.7,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2019,
+      "backgroundimage": "/CaptainMarvelBanner.jpeg",
+      "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+    },
+    {
+      "id": 2,
+      "title": "Avengers: Infinity Wars",
+      "image": "/AvengersInfinity.jpeg",
+      "isCarusel": false,
+      "type":"Movie",
+      "isFeatured": false,
+      "genre": [
+        "Adevnture",
+        "Action",
+        "SciFi",
+        "SuperHero"
+      ],
+      "duration": "2h 29m",
+      "imdbrating": 8.4,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2018,
+      "backgroundimage": "/AvengersInfinityBanner.jpg",
+      "description": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe."
+    },
+    {
+      "id": 3,
+      "title": "Doctor Strange:Multiverse of Madness",
+      "image": "/DoctorStrange.jpg",
+      "isCarusel": false,
+      "type":"Movie",
+      "isFeatured": false,
+      "genre": [
+        "Adevnture",
+        "Action",
+        "Fantasy",
+        "SuperHero"
+      ],
+      "duration": "2h 29m",
+      "imdbrating": 7.1,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2022,
+      "backgroundimage": "/DoctorStrangeBanner.jpg",
+      "description": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse. They seek help from Wanda the Scarlet Witch, Wong and others"
+    },
+    {
+      "id": 4,
+      "title": "Jurassick: World Dominion",
+      "image": "/JurasickWorld.jpg",
+      "isCarusel": false,
+      "isFeatured": true,
+      "type":"Movie",
+      "genre": [
+        "Adevnture",
+        "Action",
+        "Sci-Fi"
+      ],
+      "duration": "2h 27m",
+      "imdbrating": 5.9,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      
+      "releaseyear": 2022,
+      "backgroundimage": "/JurassicWordBanner.jpg",
+      "description": "Four years after the destruction of Isla Nublar, dinosaurs now live--and hunt--alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures in a new Era."
+    },
+    {
+      "id": 5,
+      "title": "Transformers: Age of Extinction",
+      "image": "/Transformers.jpg",
+      "isCarusel": false,
+      "isFeatured": true,
+      "type":"Movie",
+      "genre": [
+        "Adevnture",
+        "Action",
+        "Sci-Fi"
+      ],
+      "duration": "2h 45m",
+      "imdbrating": 5.6,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2014,
+      "backgroundimage": "/TransformerBanner.jpg",
+      "description": "When humanity allies with a bounty hunter in pursuit of Optimus Prime, the Autobots turn to a mechanic and his family for help."
+    },
+    {
+      "id": 6,
+      "title": "XMen Origin: Wolverine",
+      "image": "/Xmen.jpg",
+      "isCarusel": false,
+      "isFeatured": true,
+      "genre": [
+        "Action",
+        "Sci-Fi"
+      ],
+      "duration": "1h 47m",
+      "imdbrating": 6.5,
+      "rentPrice": 3.99,
+      "type":"Movie",
+      "buyPrice": 12.99,
+      "releaseyear": 2009,
+      "backgroundimage": "/Wolverinebanner.jpg",
+      "description": "The early years of James Logan, featuring his rivalry with his brother Victor Creed, his service in the special forces team Weapon X, and his experimentation into the metal-lined mutant Wolverine."
+    },
+    {
+      "id": 7,
+      "title": "Top Gun: Mavericks",
+      "image": "/Mavericks.jpg",
+      "isCarusel": false,
+      "isFeatured": true,
+      "type":"Movie",
+      "genre": [
+        "Action",
+        "Drama"
+      ],
+      "duration": "2h 10m",
+      "imdbrating": 8.6,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2022,
+      "backgroundimage": "/TopGunBanner_2.jpg",
+      "description": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground"
+    },
+    {
+      "id": 8,
+      "title": "Narnia",
+      "image": "/Narnia.jpg",
+      "isCarusel": false,
+      "type":"Movie",
+      "isFeatured": true,
+      "genre": [
+        "Adventure",
+        "Family",
+        "Fantasy"
+      ],
+      "duration": "2h 23m",
+      "imdbrating": 6.9,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2005,
+      "backgroundimage": "/NarniaBanner.jpeg",
+      "description": "Four kids travel through a wardrobe to the land of Narnia and learn of their destiny to free it with the guidance of a mystical lion."
+    },
+    {
+      "id": 9,
+      "title": "Arrival",
+      "image": "/Arrivals.jpg",
+      "isCarusel": false,
+      "type":"Movie",
+      "isFeatured": true,
+      "genre": [
+        "Mystery",
+        "Drama",
+        "Sci-Fi"
+      ],
+      "duration": "1h 56m",
+      "imdbrating": 7.9,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2016,
+      "backgroundimage": "/ArrivalBanner.jpg",
+      "description": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world."
+    },
+    {
+      "id": 10,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "image": "/HarryPotter_1.jpg",
+      "isCarusel": false,
+      "isFeatured": false,
+      "type":"Movie",
+      "genre": [
+        "Action",
+        "Family",
+        "Fantasy"
+      ],
+      "duration": "2h 32m",
+      "imdbrating": 7.6,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2001,
+      "backgroundimage": "/HarryPotterBanner.jpg",
+      "description": "An orphaned boy enrolls in a school of wizardry, where he learns the truth about himself, his family and the terrible evil that haunts the magical world."
+    },
+    {
+      "id": 11,
+      "title": "The Shawshank Redemption",
+      "image": "/TheShawShankRedemption.jpg",
+      "isCarusel": false,
+      "isFeatured": false,
+      "type":"Movie",
+      "genre": [
+        "Drama"
+      ],
+      "duration": "2h 32m",
+      "imdbrating": 9.3,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 1994,
+      "backgroundimage": "/TheShawshankRedemptionBanner.jpg",
+      "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+    },
+    {
+      "id": 12,
+      "title": "The Imitation Game",
+      "image": "/imitationGame.jpg",
+      "isCarusel": false,
+      "isFeatured": false,
+      "type":"Movie",
+      "genre": [
+        "Biography",
+        "Drama",
+        "Thriller"
+      ],
+      "duration": "1h 54m",
+      "imdbrating": 8,
+      "rentPrice": 3.99,
+      "buyPrice": 12.99,
+      "releaseyear": 2014,
+      "backgroundimage": "/Theimitationgamebanner.jpg",
+      "description": "During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life."
+    },
+    {
+        "id": 13,
+        "title": "Captain Marvel Banner",
+        "image": "/CaptainMarvelBanner.jpeg",
+        "isCarusel": true,
+        "isFeatured": false,
+        "type":"Banner",
+        "genre": [
+          "Adevnture",
+          "Action",
+          "SciFi",
+          "SuperHero"
+        ],
+        "duration": "2h 3m",
+        "imdbrating": 8.7,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2019,
+        "backgroundimage": "/",
+        "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+      },
+      {
+        "id": 14,
+        "title": "Top Gun Banner",
+        "image": "/TopGunBanner.jpg",
+        "isCarusel": true,
+        "isFeatured": false,
+        "type":"banner",
+        "genre": [
+          "Adevnture",
+          "Action",
+          "SciFi",
+          "SuperHero"
+        ],
+        "duration": "2h 3m",
+        "imdbrating": 8.7,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2019,
+        "backgroundimage": "",
+        "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+      },
+      {
+        "id": 14,
+        "title": "Thor Banner",
+        "image": "/thorBanner.jpg",
+        "type":"banner",
+        "isCarusel": true,
+        "isFeatured": false,
+        "genre": [
+          "Adevnture",
+          "Action",
+          "SciFi",
+          "SuperHero"
+        ],
+        "duration": "2h 3m",
+        "imdbrating": 8.7,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2019,
+        "backgroundimage": "/",
+        "description": "Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races."
+      },
+      {
+        "id": 15,
+        "title": "Stranger Things",
+        "type":"TVSeries",
+        "image": "/StrangerThings.jpg",
+        "isCarusel": false,
+        "isFeatured": false,
+        "genre": [
+          "Drame",
+          "Fantasy",
+          "Horror"
+        ],
+        "duration": "2h 3m",
+        "imdbrating": 8.7,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2016,
+        "backgroundimage": "/StrangerThingsBanner.jpg",
+        "description": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back."
+      },
+      {
+        "id": 16,
+        "title": "Prison Break",
+        "type":"TVSeries",
+        "image": "/PrisonBreak.jpg",
+        "isCarusel": false,
+        "isFeatured": false,
+        "genre": [
+          "Action",
+          "Crime",
+          "Drama"
+        ],
+        "duration": "44 min/episode",
+        "imdbrating": 8.3,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2005,
+        "backgroundimage": "/prisonbanner.jpg",
+        "description": "Due to a political conspiracy, an innocent man is sent to death row and his only hope is his brother, who makes it his mission to deliberately get himself sent to the same prison in order to break the both of them out, from the inside."
+      },
+      {
+        "id": 17,
+        "title": "Flash",
+        "type":"TVSeries",
+        "image": "/Flash.jpg",
+        "isCarusel": false,
+        "isFeatured": true,
+        "genre": [
+          "Action",
+          "Adventure",
+          "Drama"
+        ],
+        "duration": "40min / episode",
+        "imdbrating": 7.6,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2014,
+        "backgroundimage": "/FlashBanner.png",
+        "description": "After being struck by lightning, Barry Allen wakes up from his coma to discover he's been given the power of super speed, becoming the Flash, and fighting crime in Central City."
+    },
+    {
+        "id": 18,
+        "title": "Arrow",
+        "type":"TVSeries",
+        "image": "/Arrow.jpg",
+        "isCarusel": false,
+        "isFeatured": true,
+        "genre": [
+          "Action",
+          "Adventure",
+          "Crime"
+        ],
+        "duration": "42min / episode",
+        "imdbrating": 7.5,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2012,
+        "backgroundimage": "/ArrowBanner.jpg",
+        "description": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow."
+      },
+      {
+        "id": 19,
+        "title": "Supernatural",
+        "type":"TVSeries",
+        "image": "/Supernatural.jpg",
+        "isCarusel": false,
+        "isFeatured": true,
+        "genre": [
+          "Drama",
+          "Fantasy",
+          "Horror"
+        ],
+        "duration": "44 min / episode",
+        "imdbrating": 8.4,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2005,
+        "backgroundimage": "/SupernaturalBanner.jpg",
+        "description": "Two brothers follow their father's footsteps as hunters, fighting evil supernatural beings of many kinds, including monsters, demons and gods that roam the earth."
+      },
+      {
+        "id": 20,
+        "title": "Game of Thrones",
+        "type":"TVSeries",
+        "image": "/gameofthronesbanner.jpg",
+        "isCarusel": false,
+        "isFeatured": true,
+        "genre": [
+          "Drama",
+          "Action",
+          "Adventure"
+        ],
+        "duration": "57 min / epsiode",
+        "imdbrating": 9.2,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2016,
+        "backgroundimage": "/CaptainMarvelBackground.jpg",
+        "description": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia."
+      },
+      {
+        "id": 21,
+        "title": "Friends",
+        "type":"TVSeries",
+        "image": "/Friends.jpg",
+        "isCarusel": false,
+        "isFeatured": true,
+        "genre": [
+          "Comedy",
+          "Romance"
+        ],
+        "duration": "22 min / episode",
+        "imdbrating": 8.9,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 1994,
+        "backgroundimage": "/friendsbanner.jpg",
+        "description": "Follows the personal and professional lives of six twenty to thirty-something-year-old friends living in Manhattan."
+      },
+      {
+        "id": 22,
+        "title": "The Wheel of Time",
+        "type":"TVSeries",
+        "image": "/Wheeloftime.jpg",
+        "isCarusel": false,
+        "isFeatured": true,
+        "genre": [
+          "Action",
+          "Advanture",
+          "Drama"
+        ],
+        "duration": "1 hr / episode",
+        "imdbrating": 7.1,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2021,
+        "backgroundimage": "/WheeloftimeBanner.jpg",
+        "description": "Set in a high fantasy world where magic exists, but only some can access it, a woman named Moiraine crosses paths with five young men and women. This sparks a dangerous, world-spanning journey. Based on the book series by Robert Jordan."
+      },
+      {
+        "id": 23,
+        "title": "The Wheel of Time Banner",
+        "type":"banner",
+        "image": "/WheeloftimeBanner.jpg",
+        "isCarusel": true,
+        "isFeatured": false,
+        "genre": [
+          "Action",
+          "Advanture",
+          "Drama"
+        ],
+        "duration": "1 hr / episode",
+        "imdbrating": 7.1,
+        "rentPrice": 3.99,
+        "buyPrice": 12.99,
+        "releaseyear": 2021,
+        "backgroundimage": "/WheeloftimeBanner.jpg",
+        "description": "Set in a high fantasy world where magic exists, but only some can access it, a woman named Moiraine crosses paths with five young men and women. This sparks a dangerous, world-spanning journey. Based on the book series by Robert Jordan."
+      }
+  ]
+}

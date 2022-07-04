@@ -1,13 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Titillium Web";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(#616161,white);
+  background-repeat: no-repeat;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/*****************************NAVBAR***************************/
+
+.navbar {
+  background-color: #616161;
+  color: white;
+  display: flex;
+	align-items: stretch;
+	gap: 2rem;
+	padding: 0 1rem;
+}
+.site-title {
+	font-size: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  margin:0;
+  padding:0;
+	display: flex;
+}
+
+.navbar a{
+  padding: 0.25rem;
+  height:100%;
+  color:inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.welcomemsg{
+  padding: 0.25rem;
+  height:100%;
+  color:inherit;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar li:hover{
+  background-color: rgb(69, 67, 67);
+}
+
+.active{
+  background-color: rgb(69, 67, 67);
+}
+
+
+/*footer*/
+
+.footer{
+
+  display: flex;
+  justify-content: center;
 }
