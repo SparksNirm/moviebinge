@@ -27,7 +27,7 @@ const SignUpPage = () => {
     //SignUp Button Click
     const submitHandler=(evt)=>{
         evt.preventDefault();
-        fetch("/users",{
+        fetch("http://localhost:5000/users",{
             method:"POST",
             headers: {
                 "Content-Type": "application/json"

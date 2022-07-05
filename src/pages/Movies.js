@@ -9,7 +9,7 @@ const Movies = () => {
   const {movies,setMovies}=useContext(digitalstoreContext);
 
   useEffect(()=>{
-      fetch("/movies?type=Movie&type=TVSeries").then((response)=>{
+      fetch("http://localhost:5000/movies?type=Movie&type=TVSeries").then((response)=>{
           return response.json();
       }).then(movies=>{
         console.log(movies)

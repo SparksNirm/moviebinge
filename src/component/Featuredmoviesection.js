@@ -17,17 +17,18 @@ const Featuredmoviesection = ({type}) => {
     useEffect(()=>{
         if(type==='Movie')
         {
-            fetch("/movies?isFeatured=true&type=Movie").then((response) => {
+            fetch("http://localhost:5000/movies?isFeatured=true&type=Movie").then((response) => {
             return response.json()
           }).then((json) => {
+            console.log(json);
             setFeaturedMovies(json);
           })
             .catch((err) => {
-              console.log(`Error ${err}`)
+              // console.log(`Error ${err}`)
             });
         }else
         {
-            fetch("/movies?isFeatured=true&type=TVSeries").then((response) => {
+            fetch("http://localhost:5000/movies?isFeatured=true&type=TVSeries").then((response) => {
             return response.json()
           }).then((json) => {
             setFeaturedMovies(json);
