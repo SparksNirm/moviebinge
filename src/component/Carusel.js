@@ -23,7 +23,7 @@ const Carusel = () => {
         };
     },[index])
     useEffect(()=>{
-        fetch("http://localhost:5000/movies?isCarusel=true").then((response) => {
+        fetch("/db/movies?isCarusel=true").then((response) => {
             return response.json()
           }).then((json) => {
             setCaruselMovies(json);

@@ -19,7 +19,7 @@ const MovieDetails = () => {
 
     const {id} = useParams();
     useEffect(()=>{
-        fetch(`http://localhost:5000/movies/${id}`).then((response)=>{
+        fetch(`/db/movies/${id}`).then((response)=>{
           return response.json();
       }).then(movie=>{
         console.log(movie)

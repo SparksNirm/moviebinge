@@ -35,7 +35,7 @@ const LoginPage = () => {
         }
         if(username!=='' & password!=='')
         {
-            fetch(`http://localhost:5000/users?username=${username}`)
+            fetch(`/db/users?username=${username}`)
         .then((response)=>{
            return response.json();
            
