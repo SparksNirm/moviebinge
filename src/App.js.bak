@@ -14,7 +14,7 @@ import digitalContext from './context/Digitalstorecontext';
 import MovieDetails from './pages/MovieDetails';
 import Logout from './pages/Logout';
 import { brown, cyan, grey } from '@mui/material/colors';
-import AboutUs from './pages/AboutUs';
+import { useEffect } from 'react';
 
 const theme=createTheme({
   typography:{
@@ -48,8 +48,6 @@ function App() {
         <Route path='/movie/:id' element={<MovieDetails/>}>
         </Route>
         <Route path='/logout' element={<Logout/>}>
-        </Route>
-        <Route path='/aboutus' element={<AboutUs/>}>
         </Route>
     </Routes>
     </div>

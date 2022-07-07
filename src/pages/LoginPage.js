@@ -4,8 +4,9 @@ import Grid from '@mui/material/Grid';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { useNavigate } from "react-router-dom";
-
-
+import InputAdornment from '@mui/material/InputAdornment';
+import AccountCircle from '@mui/icons-material/AccountCircle';
+import KeyIcon from '@mui/icons-material/Key';
 const LoginPage = () => {
 
     const history=useNavigate();
@@ -47,7 +48,7 @@ const LoginPage = () => {
                 history("/")
             }
       }).catch((err)=>{
-        console.log(`Error:${err}`)
+        // console.log(`Error:${err}`)
       })
         }
     }
@@ -66,6 +67,11 @@ const LoginPage = () => {
                             style={{marginTop:20,marginBottom:20}}
                             variant="outlined"                            
                             label="User Name"
+                            InputProps={{startAdornment:(
+                                <InputAdornment position="start">
+                                    <AccountCircle/>
+                                </InputAdornment>
+                            )}}
                             color='secondary'
                             value={username}
                             onChange={(e)=>{setUsername(e.target.value)}}
@@ -78,6 +84,11 @@ const LoginPage = () => {
                             variant="outlined"
                             label="Password"
                             color='secondary'
+                            InputProps={{startAdornment:(
+                                <InputAdornment position="start">
+                                    <KeyIcon/>
+                                </InputAdornment>
+                            )}}
                             value={password}
                             onChange={(e)=>{setPassword(e.target.value)}}
                             type="password"

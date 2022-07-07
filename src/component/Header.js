@@ -70,7 +70,7 @@ const Header = () => {
             </ul>}
             {username!=='' && <ul>
                     <li className='welcomemsg'>
-                        Hello, {username}
+                    <a href="/" > Hello, {username}</a> 
                     </li>
                     <li>
                         <a href="/logout" onClick={clickHandler}>Logout</a>    

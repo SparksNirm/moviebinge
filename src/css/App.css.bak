@@ -188,14 +188,6 @@ span{
   justify-content: center;
   text-decoration:black
 }
-.contentdetails{
-  border: 1px solid #c4c4c4 ;
-  margin-left:28%;
-  padding:2%;
-  border-radius: 2%;
-  margin-right: 28%;
-  justify-content: center;
-}
 
 .logoutmsg{
  margin-left: 400px;
